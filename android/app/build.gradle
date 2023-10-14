@@ -24,7 +24,7 @@ if (flutterVersionName == null) {
 
 android {
     namespace "com.example.vtb_more"
-    compileSdkVersion flutter.compileSdkVersion
+    compileSdkVersion 33
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -65,5 +65,5 @@ flutter {
 }
 
 dependencies {
-    implementation 'com.yandex.android:maps.mobile:4.2.2-full'
+    implementation 'com.yandex.android:maps.mobile:4.4.0-full'
 }
